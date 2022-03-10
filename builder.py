@@ -16,7 +16,7 @@ TITLE = '''
 \n        Made By Dimitris Kalopisis | Twitter: @DKalopisis
 '''
 
-PATH = path.join("code", "stealer.py")
+PATH = path.join("code", "main.py")
 
 KEY = Fernet.generate_key().decode()
 
